@@ -1,4 +1,6 @@
-const fakeData: EnergyOffer[] = [
+import { EnergyOffer } from './types';
+
+export const fakeData: EnergyOffer[] = [
   {
     supplierCompanyName: 'Energy Harbor LLC',
     companyName: 'Energy Harbor LLC',

@@ -25,7 +25,7 @@ type RawEnergyOffer = {
 };
 
 // What we'll output to the frontend in the response
-type EnergyOffer = {
+export type EnergyOffer = {
   supplierCompanyName: string,
   companyName: string,
   supplierAddress: string,
